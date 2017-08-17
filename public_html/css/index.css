@@ -1,0 +1,204 @@
+*{margin:0;padding:0}
+
+#wrapper{
+    
+    width:1220px;
+    margin:0 auto;
+    padding-left:150px;
+    left:0;
+    position:relative;
+   
+}
+
+#logo img{
+    
+    height:150px;
+    width:300px;
+    
+   padding-left:380px;
+        
+    }
+    #nav{
+        height:100%;
+        position:fixed;
+        width:150px;
+        background:activecaption;
+        left:0;
+        z-index: 2;
+        
+       
+    }
+    
+    #menu ul{
+       list-style-type:none;
+      width:150px;
+      
+      
+       
+    }
+    #menu ul li{
+        
+        line-height: 2cm;
+        height:2cm;
+        width:auto;
+        position: relative;
+        border-bottom:1px solid #333;
+        
+        
+        
+       
+    }
+    #menu ul li a{
+        display:block;
+        text-decoration:none;
+        font-weight: bold;
+        text-align:center;
+    }
+    #menu ul li :hover{
+        background:appworkspace;
+    }
+    #menu .dropdown{
+       
+        position:absolute;
+      left:150px;
+        background:activecaption;
+        top:0;
+        display:none;
+        
+        
+    }
+    #menu ul li:hover .dropdown{
+        display:block;
+        background:activecaption;
+    }
+     #menu .loginwith{
+         position:absolute;
+      left:150px;
+        background:activecaption;
+        top:0;
+        display:none;
+     }
+     #menu ul li:hover .loginwith{
+         display:block;
+         background:activecaption;
+         z-index: 2;
+     }
+    
+    #content{
+       
+        left:0;
+        padding: 10px 80px;
+        border-bottom: 1px solid #ccc;
+    }
+    #sologan h1{
+        text-align:center;
+        color:lightgreen;
+    }
+  
+    
+    div.content1{
+        width:300px;
+        float:left;
+        border: 1px solid #ccc;
+        z-index: -1;
+    }
+    div .content1:hover{
+       border:1px solid #333;
+       z-index: -1;
+    }
+    div .content1 img{
+        height:auto;
+        width:100%;
+        z-index: -1;
+    }
+    div .title{
+        text-align: center;
+    }
+    #muitenphai{
+        
+        padding-top:50%;
+        right:0;
+        position:absolute;
+    }
+    #muitenphai img{
+        height:40px;
+        width:40px;
+    }
+    div .content2{
+        
+        width:300px;
+        float:left;
+        border: 1px solid #ccc;
+        position:relative;
+    }
+     div .content2:hover{
+       border:1px solid #333;
+    }
+    div .content2 img{
+        height:auto;
+        width:100%;
+    }
+     #muitentrai{
+        
+        padding-top:50%;
+        left:0;
+        position:absolute;
+    }
+    #muitentrai img{
+        height:40px;
+        width:40px;
+    }
+    #intro{
+        height:400px;
+        border:1px solid #ccc;
+    }
+    div.content3{
+         width:100%;
+        float:left;
+       
+        
+    }
+    #intro2{
+        border-bottom: 1px solid #ccc;
+    }
+    div .content3 img{
+        width:1200px;
+    }
+    div .title1 {
+        text-align:center;
+        border-bottom: 1px solid #ccc;
+    }
+   
+    div .otherplane{
+        width:300px;
+        float:left;
+        border: 1px solid #ccc;
+    }
+    div .otherplane img{
+         height:auto;
+        width:100%;
+        
+    }
+    div.title2{
+        text-align:center;
+        font-weight: bold;
+        
+        
+    }
+    div.title2 a{
+        text-decoration: none;
+    }
+    #footer{
+        padding-top:300px;
+        text-align: center;
+    }
+    
+    
+  
+        
+    
+ 
+        
+        
+       
+   

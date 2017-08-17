@@ -1,0 +1,126 @@
+*{margin:0;padding:0}
+
+#wrapper{
+    
+    width:1220px;
+    margin:0 auto;
+    padding-left:150px;
+    left:0;
+    position:relative;
+   
+}
+
+#logo img{
+    
+    height:150px;
+    width:300px;
+    
+   padding-left:380px;
+        
+    }
+    #nav{
+        height:100%;
+        position:fixed;
+        width:150px;
+        background:activecaption;
+        left:0;
+        z-index: 2;
+        
+       
+    }
+    
+    #menu ul{
+       list-style-type:none;
+      width:150px;
+      
+      
+       
+    }
+    #menu ul li{
+        
+        line-height: 2cm;
+        height:2cm;
+        width:auto;
+        position: relative;
+        border-bottom:1px solid #333;
+        
+        
+        
+       
+    }
+    #menu ul li a{
+        display:block;
+        text-decoration:none;
+        font-weight: bold;
+        text-align:center;
+    }
+    #menu ul li :hover{
+        background:appworkspace;
+    }
+    #menu .dropdown{
+       
+        position:absolute;
+      left:150px;
+        background:activecaption;
+        top:0;
+        display:none;
+        
+        
+    }
+    #menu ul li:hover .dropdown{
+        display:block;
+        background:activecaption;
+    }
+     #menu .loginwith{
+         position:absolute;
+      left:150px;
+        background:activecaption;
+        top:0;
+        display:none;
+     }
+     #menu ul li:hover .loginwith{
+         display:block;
+         background:activecaption;
+         z-index: 2;
+     }
+    
+    #content{
+       
+        left:0;
+        padding: 10px 80px;
+        border-bottom: 1px solid #ccc;
+    }
+    #sologan h1{
+        text-align:center;
+        color:lightgreen;
+    }
+  
+    
+    div.content1{
+        width:300px;
+        float:left;
+        border: 1px solid #ccc;
+        z-index: -1;
+    }
+    div .content1:hover{
+       border:1px solid #333;
+       z-index: -1;
+    }
+    div .content1:hover{
+       border:1px solid #333;
+       z-index: -1;
+    }
+    div .content1 img{
+        height:auto;
+        width:100%;
+        z-index: -1;
+    }
+    div .title{
+        position:absolute;
+        left:35%;
+        color:#333;
+        line-height: 1.5em;
+            font-weight: normal;
+    font-style: normal;
+        
+    }

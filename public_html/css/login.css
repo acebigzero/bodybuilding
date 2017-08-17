@@ -1,0 +1,50 @@
+*{padding:0;
+margin:0}
+#wrapper{
+    
+    
+    width:1380px;
+    margin:0 auto;
+    position:relative;
+   
+}
+#header{
+    width:1380px;
+    height:100px;
+    background:#333;
+    position:relative;
+}
+#header img{
+    height:auto;
+    width:250px;
+    left:40%;
+    position:absolute;
+}
+#content{
+    text-align:center;
+    line-height:1.4;
+    font-size:21px;
+    font-weight: bold;
+    color:#474747;
+    font-family: ProximaNovaReg,ProximaNova,Arial,sans-serif;
+    padding-top:30px;
+    position: relative;
+    width:100%;
+    height: auto;
+}
+#content a{
+    text-decoration: none;
+}
+#log{
+    position: absolute;
+    left:43%;
+}
+#go {
+    position: absolute;
+    left:80%;
+}
+#regacc{
+    position:absolute;
+    padding-top:60px;
+    left:0;
+}
